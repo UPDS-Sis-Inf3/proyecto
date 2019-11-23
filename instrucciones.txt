@@ -1,5 +1,6 @@
 Primera instrucción
 <<<<<<< HEAD
+kebel luis vargas altamirano
 Continuar con el ejercicio
 =======
 https://www.hostinger.es/tutoriales/comandos-de-git
