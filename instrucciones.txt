@@ -1,9 +1,9 @@
 Primera instrucción
-<<<<<<< HEAD
+kebel luis vargas altamirano
 Continuar con el ejercicio
 =======
 https://www.hostinger.es/tutoriales/comandos-de-git
->>>>>>> a858096d447e0518e4dd629f5b3a5a8cd4a8dccd
+
 Kebel Vargas
 Ruhaydder Huari
 eduardo zambrana
