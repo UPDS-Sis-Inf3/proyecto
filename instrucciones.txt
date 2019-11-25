@@ -1,4 +1,4 @@
-Primera instrucción
+﻿Primera instrucción
 kebel luis vargas altamirano
 Continuar con el ejercicio
 =======
@@ -7,4 +7,4 @@ https://www.hostinger.es/tutoriales/comandos-de-git
 Kebel Vargas
 Ruhaydder Huari
 eduardo zambrana
-
+Jasmani Martinez
