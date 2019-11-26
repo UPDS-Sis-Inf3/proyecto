@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{BBD13DE1-DB6D-421E-88E1-ED022A26923C}|Default">
+  <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="REST_APi/Busines/IGroups.cs" Line="16" Column="1" />
+      <File FileName="REST_APi/Controllers/ValuesController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="REST_APi" expanded="True">
+            <Node name="REST_APi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ValuesController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>mat</Value>
+          <Value>vec</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

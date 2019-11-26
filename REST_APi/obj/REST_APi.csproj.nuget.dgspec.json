@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj",
+        "projectName": "REST_APi",
+        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
