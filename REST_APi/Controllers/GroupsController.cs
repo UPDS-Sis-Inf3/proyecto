@@ -14,29 +14,29 @@ namespace REST_APi.Controllers
     {
         // GET api/groups
         [HttpGet]
-        public ActionResult<IEnumerable<Groups>> Get()
+        public ActionResult<IEnumerable<tareas>> Get()
         {
             return GroupsRepository.GetGroups();
         }
         // GET api/groups/5
         [HttpGet("{id}")]
-        public ActionResult<Groups> Get(int id)
+        public ActionResult<tareas> Get(int id)
         {
             return GroupsRepository.GetGroupsById(id);
         }
 
         // POST api/groups
         [HttpPost]
-        public ActionResult Post([FromBody] Groups value)
+        public ActionResult Post([FromBody] tareas value)
         {
-            List<Groups> groups = new List<Groups>();
+            List<tareas> groups = new List<tareas>();
             groups=GroupsRepository.PostGroups(value);
             return this.Ok();
         }
 
         // PUT api/groups/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Groups value)
+        public void Put(int id, [FromBody] tareas value)
         {
             GroupsRepository.PutGroups(value,id);
         }
@@ -50,7 +50,7 @@ namespace REST_APi.Controllers
 
         // PATCH api/groups/5
         [HttpPatch("{id}")]
-        public void Patch(int id, [FromBody] Groups value)
+        public void Patch(int id, [FromBody] tareas value)
         {
             GroupsRepository.PatchGroups(value, id);
         }

@@ -8,34 +8,34 @@ namespace REST_APi.DataAccess
 {
     static class GroupsRepository
     {
-         public static List<Groups> groups;
+         public static List<tareas> groups;
 
          static GroupsRepository()
         {
-            groups = new List<Groups>()
-            { new Groups(){
+            groups = new List<tareas>()
+            { new tareas(){
                 id = 1,
                 name = "Test"
                           },
-              new Groups(){
+              new tareas(){
                 id = 2,
                 name = "Guest"
                           }
             };
         }
 
-        public static List<Groups> GetGroups()
+        public static List<tareas> GetGroups()
         {
            
             return groups;
         }
-        public static Groups GetGroupsById(int id)
+        public static tareas GetGroupsById(int id)
         {
             var index = groups.FindIndex(o => o.id == id);
             return groups[index];
         }
 
-        public static List<Groups> PostGroups(Groups group)
+        public static List<tareas> PostGroups(tareas group)
         {
             groups.Add(group);
             return groups;
@@ -47,14 +47,14 @@ namespace REST_APi.DataAccess
             var index = groups.FindIndex(o => o.id == id);
             groups.Remove(groups[index]);
         }
-        public static void PutGroups(Groups value,int id)
+        public static void PutGroups(tareas value,int id)
         {
             var index = groups.FindIndex(o => o.id == id);
             groups[index].name = value.name;
 
         }
 
-        public static void PatchGroups(Groups value, int id)
+        public static void PatchGroups(tareas value, int id)
         {
             var index = groups.FindIndex(o => o.id == id);
             if (value.name != groups[index].name)

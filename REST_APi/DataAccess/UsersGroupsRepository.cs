@@ -27,7 +27,7 @@ namespace REST_APi.DataAccess
         public static List<UserDGroupD> GetUsersByGroup(int value)
         {
             List<Users> TempUsers = DataAccess.UsersRepository.users;
-            List<Groups> TempGroups = DataAccess.GroupsRepository.groups;
+            List<tareas> TempGroups = DataAccess.GroupsRepository.groups;
             var res = from i in TempUsers
                       from j in TempGroups
                       from k in usersgroups
