@@ -1,26 +1,36 @@
-﻿<Properties StartupConfiguration="{BBD13DE1-DB6D-421E-88E1-ED022A26923C}|Default">
-  <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Controllers/ValuesController.cs">
+﻿<Properties StartupConfiguration="{1F5EFE1F-5723-4319-A3AF-A59C1EFB4E1A}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.REST__API__Consola PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Controllers/GroupsController.cs">
     <Files>
-      <File FileName="REST_APi/Busines/IGroups.cs" Line="16" Column="1" />
-      <File FileName="REST_APi/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="REST_APi/Model/Tareas.cs" Line="4" Column="19" />
+      <File FileName="REST_APi/Busines/IGroups.cs" />
+      <File FileName="REST_APi/DataAccess/EntityFrameworkSQLite.cs" />
+      <File FileName="REST_APi/Model/Users.cs" />
+      <File FileName="REST_APi/Program.cs" />
+      <File FileName="REST_API_Consola/Program.cs" />
+      <File FileName="REST_APi/Controllers/GroupsController.cs" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="REST_APi" expanded="True">
             <Node name="REST_APi" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True">
-                <Node name="ValuesController.cs" selected="True" />
+                <Node name="GroupsController.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+            </Node>
+            <Node name="REST_API_Consola" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>mat</Value>
-          <Value>vec</Value>
         </State>
       </Pad>
     </Pads>

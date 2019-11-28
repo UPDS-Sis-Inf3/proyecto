@@ -12,13 +12,14 @@
 /Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.dll
 /Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.pdb
 /Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/REST_APi.deps.json
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/REST_APi.runtimeconfig.json
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/REST_APi.runtimeconfig.dev.json
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/REST_APi.dll
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/bin/Debug/netcoreapp2.2/REST_APi.pdb
-/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.csprojAssemblyReference.cache
-/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.csproj.CoreCompileInputs.cache
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.RazorAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.RazorAssemblyInfo.cs
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.AssemblyInfoInputs.cache
@@ -26,3 +27,4 @@
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.RazorTargetAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.dll
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.pdb
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.csprojAssemblyReference.cache
