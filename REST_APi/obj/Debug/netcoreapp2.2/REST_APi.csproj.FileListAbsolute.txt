@@ -26,3 +26,19 @@
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.RazorTargetAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.dll
 /Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/Debug/netcoreapp2.2/REST_APi.pdb
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\REST_APi.deps.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\REST_APi.runtimeconfig.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\REST_APi.runtimeconfig.dev.json
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\REST_APi.dll
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\bin\Debug\netcoreapp2.2\REST_APi.pdb
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.csprojAssemblyReference.cache
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.RazorAssemblyInfo.cache
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.RazorAssemblyInfo.cs
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.AssemblyInfoInputs.cache
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.AssemblyInfo.cs
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.RazorTargetAssemblyInfo.cache
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.dll
+C:\Users\kebel\Documents\github\proyecto\proyecto\REST_APi\obj\Debug\netcoreapp2.2\REST_APi.pdb
