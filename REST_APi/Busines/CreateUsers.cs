@@ -3,6 +3,7 @@ using REST_APi.Model;
 using REST_APi.DataAccess;
 //using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 namespace REST_APi.Busines
 {
@@ -12,21 +13,16 @@ namespace REST_APi.Busines
         {
             using (var db = new EntityFrameworkSQLite())
             {
-               // ICollection<Users> users1 = new Collection<Users>();
-
                 db.User.Add(users);
-                ///db.User.Add(users);
-                var count = db.SaveChanges();
-
-                //Console.WriteLine("{0} records saved to database", count);
-
-                //Console.WriteLine();
-                
+                var count = db.SaveChanges();          
             }
         }
-
-
-
-
+        public IList<Users> ReadUsers()
+        {
+            using (var db = new EntityFrameworkSQLite())
+            {
+                return (IList<Users>)db.User;
+            }
+        }
     }
 }
