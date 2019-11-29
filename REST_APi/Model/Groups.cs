@@ -7,8 +7,9 @@ namespace REST_APi.Model
 {
     public class Groups
     {
-        public int id { get; set; }
+        public int id_usuario { get; set; }
         public string name { get; set; }
+        public 
 
     }
 }
