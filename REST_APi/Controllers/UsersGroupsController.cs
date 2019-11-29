@@ -18,7 +18,7 @@ namespace REST_APi.Controllers
         public ActionResult<IEnumerable<UserDGroupD>> Get(int group)
         {
 
-            return UsersGroupsRepository.GetUsersByGroup(group);
+            return Ok();//;UsersGroupsRepository.GetUsersByGroup(group);
             //return l1;
         }
 
@@ -27,7 +27,7 @@ namespace REST_APi.Controllers
         public ActionResult Post([FromBody] UsersGroups value)
         {
 
-            UsersGroupsRepository.PostUserOnGroup(value);
+            //UsersGroupsRepository.PostUserOnGroup(value);
             return this.Ok();
         }
 
@@ -36,7 +36,7 @@ namespace REST_APi.Controllers
         public ActionResult delete([FromBody] UsersGroups value)
         {
 
-            UsersGroupsRepository.DeleteUserOnGroup(value);
+            //UsersGroupsRepository.DeleteUserOnGroup(value);
             return this.Ok();
         }
     }

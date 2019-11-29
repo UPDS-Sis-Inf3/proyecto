@@ -1,31 +1,28 @@
-﻿<Properties StartupConfiguration="{BBD13DE1-DB6D-421E-88E1-ED022A26923C}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+﻿<Properties StartupConfiguration="{E44E28B4-3813-4109-AA54-080815CEA9FC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.REST__API__Consola PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Model/Users.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Model/tareas.cs">
     <Files>
-      <File FileName="REST_APi/DataAccess/EntityFrameworkSQLite.cs" Line="12" Column="24" />
-      <File FileName="REST_APi/Controllers/GroupsController.cs" Line="59" Column="2" />
-      <File FileName="REST_APi/Busines/IGroups.cs" Line="19" Column="1" />
-      <File FileName="REST_APi/Busines/CreateUsers.cs" Line="26" Column="10" />
-      <File FileName="REST_APi/Program.cs" Line="21" Column="1" />
-      <File FileName="REST_APi/DataAccess/UsersRepository.cs" Line="32" Column="10" />
-      <File FileName="REST_APi/Model/tareas.cs" Line="8" Column="18" />
-      <File FileName="REST_APi/Model/Users.cs" Line="1" Column="1" />
+      <File FileName="REST_API_Consola/Program.cs" Line="29" Column="37" />
+      <File FileName="REST_APi/Controllers/UsersController.cs" />
+      <File FileName="REST_APi/DataAccess/UsersRepository.cs" />
+      <File FileName="REST_APi/DataAccess/EntityFrameworkSQLite.cs" />
+      <File FileName="REST_APi/Model/Users.cs" />
+      <File FileName="REST_APi/Model/tareas.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="REST_APi" expanded="True">
             <Node name="REST_APi" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-                <Node name="SdkDependencies" expanded="True" />
-              </Node>
+              <Node name="Busines" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="DataAccess" expanded="True" />
               <Node name="Model" expanded="True">
-                <Node name="Users.cs" selected="True" />
+                <Node name="tareas.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="REST_API_Consola" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -35,7 +32,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_API_Consola/Program.cs" relfile="REST_API_Consola/Program.cs" line="19" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/DataAccess/UsersRepository.cs" relfile="REST_APi/DataAccess/UsersRepository.cs" line="33" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/DataAccess/UsersRepository.cs" relfile="REST_APi/DataAccess/UsersRepository.cs" line="18" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -24,9 +24,10 @@ namespace REST_APi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Users>> GetUsersAct(string activeParam="all")
         {
-            List<Users> l1 = new List<Users>();
-            l1 =UsersRepository.GetUsersAct(activeParam);
-            return l1;
+            //List<Users> l1 = new List<Users>();
+            //l1 =UsersRepository.GetUsersAct(activeParam);
+            ///return l1;
+            return Ok(UsersRepository.GetUsers());
         }
 
         // GET api/Users/5

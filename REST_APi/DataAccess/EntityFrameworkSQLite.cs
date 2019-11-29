@@ -8,7 +8,7 @@
     public class EntityFrameworkSQLite : DbContext
     {
         public DbSet<Users> User { get; set; }
-        public DbSet<Tareas> Tarea { get; set; }
+        public DbSet<tareas> Tarea { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

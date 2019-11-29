@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -17,20 +18,36 @@ namespace REST_APi.DataAccess
             users = new List<Users>()
             { new Users(){
                 id = 1,
-                name = "Jose Perez",
-                active = true
+                nombre = "Jose Perez"
                           },
               new Users(){
                 id = 2,
-                name = "Juan Jose Perez",
-                active = false
+                nombre = "Juan Jose Perez"
+
                           }
             };
         }
 
         public static List<Users> GetUsers()
         {
-                return users;
+            using (var db = new EntityFrameworkSQLite())
+            {
+                ICollection<Users> us = new Collection<Users>();
+                List<Users> l2 = new List<Users>();
+                Users u = new Users();
+                foreach (Users item in db.User)
+                {
+                    // Console.WriteLine(item);
+                    u.nombre = item.nombre;
+                    l2.Add(u);
+
+                }
+
+                //us.Add(db.User);
+                return l2;// db.User;//.ToList<Users>;
+
+            }
+           /// return users;
         }
 
         public static List<Users> GetUsersAct(string activeParam)
@@ -41,10 +58,10 @@ namespace REST_APi.DataAccess
                 foreach (Users item in users)
                 {
                     // Console.WriteLine(item);
-                    if (item.active == Convert.ToBoolean(activeParam))
+                    if (item.id == 1)//Convert.ToBoolean(activeParam))
                     {
                         l2.Add(item);
-                    }
+                    } 
                 }
                 return l2;
 
@@ -76,22 +93,19 @@ namespace REST_APi.DataAccess
         public static void PutUsers(Users value, int id)
         {
             var index = users.FindIndex(o => o.id == id);
-            users[index].name = value.name;
-            users[index].active = value.active;
+            users[index].nombre = value.nombre;
+            ////users[index].active = value.active;
 
         }
 
         public static void PatchUsers(Users value, int id)
         {
             var index = users.FindIndex(o => o.id == id);
-            if (value.name != users[index].name)
+            if (value.nombre != users[index].nombre)
             {
-                users[index].name = value.name;
+                users[index].nombre = value.nombre;
             }
-            if (value.active != users[index].active)
-            {
-                users[index].active = value.active;
-            }
+            
 
         }
 
