@@ -21,10 +21,10 @@ namespace REST_API_Consola
                 db.User.Add(new Users
                 {
                     id = 1,
-                    name = "Roger Ruiz",
+                   name = "Roger Ruiz",
                     active = true
                 });
-
+                ///db.User.Add(users);
                 var count = db.SaveChanges();
 
                 Console.WriteLine("{0} records saved to database", count);
