@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{E44E28B4-3813-4109-AA54-080815CEA9FC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.REST__API__Consola PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/DataAccess/UsersRepository (copia).cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Model/tareas.cs">
     <Files>
       <File FileName="REST_API_Consola/Program.cs" Line="29" Column="37" />
       <File FileName="REST_APi/Controllers/UsersController.cs" />
       <File FileName="REST_APi/DataAccess/UsersRepository.cs" />
       <File FileName="REST_APi/DataAccess/EntityFrameworkSQLite.cs" />
-      <File FileName="REST_APi/Model/Users.cs" Line="14" Column="42" />
+      <File FileName="REST_APi/Model/Users.cs" />
       <File FileName="REST_APi/Model/tareas.cs" Line="1" Column="1" />
-      <File FileName="REST_APi/DataAccess/UsersRepository (copia).cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,10 +17,10 @@
             <Node name="REST_APi" expanded="True">
               <Node name="Busines" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="DataAccess" expanded="True">
-                <Node name="UsersRepository (copia).cs" selected="True" />
+              <Node name="DataAccess" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="tareas.cs" selected="True" />
               </Node>
-              <Node name="Model" expanded="True" />
             </Node>
             <Node name="REST_API_Consola" expanded="True" />
           </Node>

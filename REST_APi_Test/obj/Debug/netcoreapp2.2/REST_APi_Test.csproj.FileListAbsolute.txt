@@ -1,0 +1,27 @@
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.deps.json
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.runtimeconfig.json
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.runtimeconfig.dev.json
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.dll
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.pdb
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.AssemblyInfo.cs
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.dll
+/Users/rogerruizescobar/Documents/Jalasoft/GitHub/jalasoft/REST_APi/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.pdb
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.deps.json
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.runtimeconfig.json
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.runtimeconfig.dev.json
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.dll
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/bin/Debug/netcoreapp2.2/REST_APi_Test.pdb
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.csprojAssemblyReference.cache
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.AssemblyInfo.cs
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.dll
+/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi_Test/obj/Debug/netcoreapp2.2/REST_APi_Test.pdb
