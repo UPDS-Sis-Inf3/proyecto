@@ -6,7 +6,7 @@ namespace REST_APi.Busines
     public class BTareas
         
     {
-        public void UpdateTareas(tareas Tareas)
+        public void UpdateTareas(Tareas Tareas)
         {
             using (var db= new EntityFrameworkSQLite())
             {

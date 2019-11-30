@@ -9,65 +9,64 @@ using REST_APi.Model;
 
 namespace REST_APi.DataAccess
 {
-    static class UsersRepository
+    static class TareasRepository
     {
-        public static IList<Users> GetUsers()
+        public static IList<Tareas> GetUsers()
         {
             using (var db = new EntityFrameworkSQLite())
             {
-                ICollection<Users> us = new Collection<Users>();
-                List<Users> l2 = new List<Users>();
-                Users u = new Users();
-                foreach (Users item in db.User)
+                ICollection<Tareas> us = new Collection<Tareas>();
+                List<Tareas> l2 = new List<Tareas>();
+                Tareas u = new Tareas();
+                foreach (Tareas tarea in db.Tarea)
                 {
                     // Console.WriteLine(item);
                     //u.nombre = item.nombre;
-                    l2.Add(item);
+                    l2.Add(tarea);
 
                 }
 
                 //us.Add(db.User);
-                return l2 as IList<Users>;//.ToList<Users>;
+                return l2 as IList<Tareas>;//.ToList<Users>;
 
             }
             /// return users;
         }
 
-        public static Users GetUsersPorId(Users id_users)
+        public static Tareas GetTareasPorId(Tareas id_tarea)
         {
-            
+
             using (var db = new EntityFrameworkSQLite())
             {
 
-                id_users = db.User.Find(id_users.id);
-                return id_users;
+                id_tarea = db.Tarea.Find(id_tarea.id);
+                return id_tarea;
             }
         }
-
-        public static Users PostUsers(Users users)
+        public static Tareas Posttareas(Tareas tareas)
         {
             using (var db = new EntityFrameworkSQLite())
             {
 
-                db.User.Add(users);
+                db.Tarea.Add(tareas);
                 var count = db.SaveChanges();
 
             }
-            return users;
-        }   
-        public static Users DeleteUsers(Users users)
+            return tareas;
+        }
+        public static Tareas Deletetarea(Tareas tareas)
         {
             using (var db = new EntityFrameworkSQLite())
             {
 
-                db.User.Remove(users);
+                db.Tarea.Remove(tareas);
                 var count = db.SaveChanges();
 
             }
-            return users;
+            return tareas;
         }
 
-        
 
     }
+
 }
