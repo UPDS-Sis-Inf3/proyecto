@@ -12,35 +12,35 @@ using REST_APi.DataAccess;
 /// </summary>
 namespace REST_APi.Busines
 {
-    public class usuariobusines : Itareas
+    public class tareasbusines : Itareas
     {
         //
         // TODO: Add constructor logic here
         //
-        public List<Tareas> readAll()
+        public IList<Tareas> readAll()
         {
-            return TareasRepository.GetTareas;
+            return TareasRepository.GetTareas();
         }
 
         public Tareas create(Tareas entity)
         {
-            Tareas tarea1 = new create<Tareas>();
-            tarea1 = TareasRepository.PatchTareas(entity);
-            returns tarea1;
+            Tareas tarea1 = new Tareas();
+            tarea1 = TareasRepository.Posttareas(entity);
+            return tarea1;
 
         }
 
         public Tareas update(Tareas entity)
         {
-            Tareas tarea2 = new update<Tareas>(id);
-            tarea2 = TareasRepository.PutTareas(id);
-            returns tarea2;
+            Tareas tarea2 = new Tareas();
+            //tarea2 = TareasRepository.PutTareas(id);
+            return tarea2;
         }
         public Tareas delete(Tareas entity)
         {
-            Tareas tarea3 = new delete<Tareas>(id);
-            tarea3 = TareasRepository.DeleteTareas(id);
-            returns tarea13;
+            Tareas tarea3 = new Tareas();
+            tarea3 = TareasRepository.Deletetarea(entity);
+            return tarea3;
         }
 
     }

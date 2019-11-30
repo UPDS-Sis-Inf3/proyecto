@@ -54,7 +54,10 @@ namespace REST_APi.DataAccess
 
             }
             return users;
-        }   
+        }
+
+
+
         public static Users DeleteUsers(Users users)
         {
             using (var db = new EntityFrameworkSQLite())

@@ -17,7 +17,7 @@ namespace REST_APi.Controllers
 
         // GET api/Users
         [HttpGet]
-        public ActionResult<IEnumerable<tareas>> GetUsersAct(string activeParam = "all")
+        public ActionResult<IEnumerable<Tareas>> GetUsersAct(string activeParam = "all")
         {
             //List<Users> l1 = new List<Users>();
             //l1 =UsersRepository.GetUsersAct(activeParam);
@@ -27,25 +27,28 @@ namespace REST_APi.Controllers
 
         // GET api/Users/5
         [HttpGet("{id}")]
-        public ActionResult<tareas> Get(int id)
+        public ActionResult<Tareas> Get(int id)
         {
-            return tareaRepository.GettareasById(id);
+            Tareas t = new Tareas();
+            return TareasRepository.GetTareasPorId(t);
         }
 
         // POST api/Users
         [HttpPost]
-        public ActionResult Post([FromBody] tareas value)
+        public ActionResult Post([FromBody] Tareas value)
         {
-            List<tareas> tareas = new List<tareas>();
-            tareas = tareaRepository.Posttareas(value);
-            return this.Ok();
+            IList<Tareas> tareas = new List<Tareas>();
+            tareas = (System.Collections.Generic.IList<REST_APi.Model.Tareas>)TareasRepository.Posttareas(value);
+            return this.Ok(tareas);
         }
 
         // DELETE api/Users/5
         [HttpDelete("{id}")]
-        public void Deletetareas(int id)
+        public void DeleteTareas(int id)
         {
-            tareaRepository.Deletetareas(id);
+            Tareas t = new Tareas();
+            t.id = id;
+            TareasRepository.Deletetarea(t);
         }
 
     }

@@ -9,7 +9,7 @@ namespace REST_APi.Busines
 {
     public interface Ius
     {
-        List<Users> readAll();
+        IList<Users> readAll();
         Users create(Users entity);
         //user read(Groups Todo);
         Users update(Users entity);

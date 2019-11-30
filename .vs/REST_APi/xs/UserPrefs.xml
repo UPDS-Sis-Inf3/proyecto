@@ -1,28 +1,37 @@
 ﻿<Properties StartupConfiguration="{BBD13DE1-DB6D-421E-88E1-ED022A26923C}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.REST__API__Consola PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.REST__APi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Busines/usuariosbusines.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="REST_APi/Controllers/tareasController.cs">
     <Files>
       <File FileName="REST_APi/Model/Users.cs" Line="16" Column="6" />
       <File FileName="REST_APi/Model/tareas.cs" />
-      <File FileName="REST_APi/Busines/usuariosbusines.cs" Line="25" Column="27" />
-      <File FileName="REST_APi/Busines/tareasbusines.cs" Line="15" Column="18" />
-      <File FileName="REST_APi/DataAccess/UsersRepository.cs" Line="1" Column="1" />
-      <File FileName="REST_APi/Busines/Iusuarios.cs" Line="12" Column="20" NotebookId="1" />
+      <File FileName="REST_APi/Busines/usuariosbusines.cs" Line="19" Column="1" />
+      <File FileName="REST_APi/DataAccess/UsersRepository.cs" />
+      <File FileName="REST_APi/Busines/IGroups.cs" />
+      <File FileName="REST_APi/Controllers/UsersController.cs" Line="1" Column="1" />
+      <File FileName="REST_APi/Busines/tareasbusines.cs" Line="22" Column="49" />
+      <File FileName="REST_APi/Controllers/tareasController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="REST_APi" expanded="True">
             <Node name="REST_APi" expanded="True">
-              <Node name="Busines" expanded="True">
-                <Node name="usuariosbusines.cs" selected="True" />
+              <Node name="Busines" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="tareasController.cs" selected="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
               <Node name="DataAccess" expanded="True" />
-              <Node name="Model" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>l2 </Value>
+          <Value>db.User</Value>
+          <Value>item</Value>
+          <Value>UsersRepository.GetUsers()</Value>
         </State>
       </Pad>
     </Pads>

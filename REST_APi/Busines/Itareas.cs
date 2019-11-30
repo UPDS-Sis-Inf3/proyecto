@@ -9,7 +9,7 @@ namespace REST_APi.Busines
 {
     public interface Itareas
     {
-        List<Tareas> readAll();
+        IList<Tareas> readAll();
         Tareas create(Tareas entity);
         //user read(Groups Todo);
         Tareas update(Tareas entity);

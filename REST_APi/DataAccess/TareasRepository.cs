@@ -11,7 +11,7 @@ namespace REST_APi.DataAccess
 {
     static class TareasRepository
     {
-        public static IList<Tareas> GetUsers()
+        public static IList<Tareas> GetTareas()
         {
             using (var db = new EntityFrameworkSQLite())
             {

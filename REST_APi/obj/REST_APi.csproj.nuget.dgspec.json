@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj": {}
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproybkp/REST_APi/REST_APi.csproj": {}
   },
   "projects": {
-    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj": {
+    "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproybkp/REST_APi/REST_APi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproybkp/REST_APi/REST_APi.csproj",
         "projectName": "REST_APi",
-        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/REST_APi.csproj",
+        "projectPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproybkp/REST_APi/REST_APi.csproj",
         "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
-        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproy/REST_APi/obj/",
+        "outputPath": "/Users/rogerruizescobar/Documents/Docencia/Docencia UPDS/gitproybkp/REST_APi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

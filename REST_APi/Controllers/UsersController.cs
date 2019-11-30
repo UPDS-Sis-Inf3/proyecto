@@ -29,23 +29,27 @@ namespace REST_APi.Controllers
         [HttpGet("{id}")]
         public ActionResult<Users> Get(int id)
         {
-            return UsersRepository.GetUsersById(id);
+            Users u = new Users();
+            u.id = id;
+            return UsersRepository.GetUsersPorId(u);
         }
 
         // POST api/Users
         [HttpPost]
         public ActionResult Post([FromBody] Users value)
         {
-            List<Users> users = new List<Users>();
-            users = UsersRepository.PostUsers(value);
-            return this.Ok();
+            IList<Users> users = new List<Users>();
+            users = (System.Collections.Generic.IList<REST_APi.Model.Users>)UsersRepository.PostUsers(value);
+            return this.Ok(users);
         }
 
         // DELETE api/Users/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            UsersRepository.DeleteUsers(id);
+            Users u = new Users();
+            u.id = id;
+            UsersRepository.DeleteUsers(u);
         }
     }
 }
