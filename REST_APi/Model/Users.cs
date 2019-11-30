@@ -11,7 +11,7 @@ namespace REST_APi.Model
         public string nombre { get; set; }
         public string ap_materno { get; set; }
         public string ap_paterno { get; set; }
-        public string emal { get; set; }
+        public string email { get; set; }
 
     }
 }

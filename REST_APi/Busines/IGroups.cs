@@ -10,7 +10,7 @@ namespace REST_APi.Busines
     {
         List<T> readAll();
         T create(T entity);
-        T read(tareas Todo);
+        T read(Groups Todo);
         T update(T entity);
         T delete(T entity);
 

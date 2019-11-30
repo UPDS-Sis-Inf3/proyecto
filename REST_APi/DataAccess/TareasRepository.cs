@@ -9,105 +9,64 @@ using REST_APi.Model;
 
 namespace REST_APi.DataAccess
 {
-    static class UsersRepository
+    static class TareasRepository
     {
-        public static List<Users> users;
-
-        static UsersRepository()
-        {
-            users = new List<Users>()
-            { new Users(){
-                id = 1,
-                nombre = "Jose Perez"
-                          },
-              new Users(){
-                id = 2,
-                nombre = "Juan Jose Perez"
-
-                          }
-            };
-        }
-
-        public static List<Users> GetUsers()
+        public static IList<Tareas> GetUsers()
         {
             using (var db = new EntityFrameworkSQLite())
             {
-                ICollection<Users> us = new Collection<Users>();
-                List<Users> l2 = new List<Users>();
-                Users u = new Users();
-                foreach (Users item in db.User)
+                ICollection<Tareas> us = new Collection<Tareas>();
+                List<Tareas> l2 = new List<Tareas>();
+                Tareas u = new Tareas();
+                foreach (Tareas tarea in db.Tarea)
                 {
                     // Console.WriteLine(item);
-                    u.nombre = item.nombre;
-                    l2.Add(u);
+                    //u.nombre = item.nombre;
+                    l2.Add(tarea);
 
                 }
 
                 //us.Add(db.User);
-                return l2;// db.User;//.ToList<Users>;
+                return l2 as IList<Tareas>;//.ToList<Users>;
 
             }
-           /// return users;
+            /// return users;
         }
 
-        public static List<Users> GetUsersAct(string activeParam)
+        public static Tareas GetTareasPorId(Tareas id_tarea)
         {
-            List<Users> l2 = new List<Users>();
-            if (activeParam != "all")
+
+            using (var db = new EntityFrameworkSQLite())
             {
-                foreach (Users item in users)
-                {
-                    // Console.WriteLine(item);
-                    if (item.id == 1)//Convert.ToBoolean(activeParam))
-                    {
-                        l2.Add(item);
-                    } 
-                }
-                return l2;
 
-                //return usersActive.ToList();
-
+                id_tarea = db.Tarea.Find(id_tarea.id);
+                return id_tarea;
             }
-            else
+        }
+        public static Tareas Posttareas(Tareas tareas)
+        {
+            using (var db = new EntityFrameworkSQLite())
             {
-                return users;
+
+                db.Tarea.Add(tareas);
+                var count = db.SaveChanges();
+
             }
+            return tareas;
         }
-
-        public static Users GetUsersById(int id)
+        public static Tareas Deletetarea(Tareas tareas)
         {
-            var index = users.FindIndex(o => o.id == id);
-            return users[index];
-        }
-
-        public static List<Users> PostUsers(Users group)
-        {
-            users.Add(group);
-            return users;
-        }
-        public static void DeleteUsers(int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            users.Remove(users[index]);
-        }
-        public static void PutUsers(Users value, int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            users[index].nombre = value.nombre;
-            ////users[index].active = value.active;
-
-        }
-
-        public static void PatchUsers(Users value, int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            if (value.nombre != users[index].nombre)
+            using (var db = new EntityFrameworkSQLite())
             {
-                users[index].nombre = value.nombre;
-            }
-            
 
+                db.Tarea.Remove(tareas);
+                var count = db.SaveChanges();
+
+            }
+            return tareas;
         }
+
 
     }
+
 }

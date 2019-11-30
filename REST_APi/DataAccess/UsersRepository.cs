@@ -11,24 +11,7 @@ namespace REST_APi.DataAccess
 {
     static class UsersRepository
     {
-        public static List<Users> users;
-
-        static UsersRepository()
-        {
-            users = new List<Users>()
-            { new Users(){
-                id = 1,
-                nombre = "Jose Perez"
-                          },
-              new Users(){
-                id = 2,
-                nombre = "Juan Jose Perez"
-
-                          }
-            };
-        }
-
-        public static List<Users> GetUsers()
+        public static IList<Users> GetUsers()
         {
             using (var db = new EntityFrameworkSQLite())
             {
@@ -38,76 +21,53 @@ namespace REST_APi.DataAccess
                 foreach (Users item in db.User)
                 {
                     // Console.WriteLine(item);
-                    u.nombre = item.nombre;
-                    l2.Add(u);
+                    //u.nombre = item.nombre;
+                    l2.Add(item);
 
                 }
 
                 //us.Add(db.User);
-                return l2;// db.User;//.ToList<Users>;
+                return l2 as IList<Users>;//.ToList<Users>;
 
             }
-           /// return users;
+            /// return users;
         }
 
-        public static List<Users> GetUsersAct(string activeParam)
+        public static Users GetUsersPorId(Users id_users)
         {
-            List<Users> l2 = new List<Users>();
-            if (activeParam != "all")
+            
+            using (var db = new EntityFrameworkSQLite())
             {
-                foreach (Users item in users)
-                {
-                    // Console.WriteLine(item);
-                    if (item.id == 1)//Convert.ToBoolean(activeParam))
-                    {
-                        l2.Add(item);
-                    } 
-                }
-                return l2;
 
-                //return usersActive.ToList();
-
+                id_users = db.User.Find(id_users.id);
+                return id_users;
             }
-            else
+        }
+
+        public static Users PostUsers(Users users)
+        {
+            using (var db = new EntityFrameworkSQLite())
             {
-                return users;
+
+                db.User.Add(users);
+                var count = db.SaveChanges();
+
             }
-        }
-
-        public static Users GetUsersById(int id)
+            return users;
+        }   
+        public static Users DeleteUsers(Users users)
         {
-            var index = users.FindIndex(o => o.id == id);
-            return users[index];
-        }
+            using (var db = new EntityFrameworkSQLite())
+            {
 
-        public static List<Users> PostUsers(Users group)
-        {
-            users.Add(group);
+                db.User.Remove(users);
+                var count = db.SaveChanges();
+
+            }
             return users;
         }
-        public static void DeleteUsers(int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            users.Remove(users[index]);
-        }
-        public static void PutUsers(Users value, int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            users[index].nombre = value.nombre;
-            ////users[index].active = value.active;
 
-        }
-
-        public static void PatchUsers(Users value, int id)
-        {
-            var index = users.FindIndex(o => o.id == id);
-            if (value.nombre != users[index].nombre)
-            {
-                users[index].nombre = value.nombre;
-            }
-            
-
-        }
+        
 
     }
 }

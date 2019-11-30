@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace REST_APi.Model
 {
-    public class tareas
+    public class Tareas
     {
         public int id { get; set; }//id del usuario añadir
         public string descripcion { get; set; }
