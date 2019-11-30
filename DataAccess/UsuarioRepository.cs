@@ -20,28 +20,28 @@ namespace REST_APi.DataAccess
                 nombre = "Jose",
                 ap_materno = "Perez",
                 ap_paterno = "Valdez",
-                emal = "JosePerez@Gmail.com", 
+                emal = "JosePerez@Gmail.com"
                           },
               new Usuario(){
                  id = 2,
                 nombre = "Juan",
                 ap_materno = "Pacheco",
                 ap_paterno = "Perez",
-                emal = "JuanPacheco@Gmail.com", 
-                          }
-                new Usuariors(){
+                emal = "JuanPacheco@Gmail.com" 
+                          },
+                new Usuario(){
                  id = 3,
                 nombre = "Jose",
                 ap_materno = "Perez",
                 ap_paterno = "Valdez",
-                emal = "JosePerez@Gmail.com", 
-                          }
+                emal = "JosePerez@Gmail.com" 
+                          },
                 new Usuario(){
                  id = 4,
                 nombre = "Jose",
                 ap_materno = "Perez",
                 ap_paterno = "Valdez",
-                emal = "JosePerez@Gmail.com", 
+                emal = "JosePerez@Gmail.com"
                           }
             };
         }
